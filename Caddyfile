@@ -1,0 +1,10 @@
+0.0.0.0:2020
+
+gzip
+log access.log
+browse /upstream template
+ext .html .md .txt
+
+markdown /upstream {
+    css /tufte.css
+}

@@ -5,6 +5,11 @@ log access.log
 browse /upstream template
 ext .html .md .txt
 
+git git@www.penflip.com:0atman/upstream.git upstream {
+    interval 5
+    key ~/.ssh/id_rsa
+}
+
 markdown /upstream {
     css /tufte.css
 }

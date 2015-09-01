@@ -2,7 +2,7 @@
 
 gzip
 log access.log
-browse /upstream template
+browse /upstream browse-template.html
 ext .html .md .txt
 
 git git@www.penflip.com:0atman/upstream.git upstream {
@@ -11,5 +11,5 @@ git git@www.penflip.com:0atman/upstream.git upstream {
 }
 
 markdown /upstream {
-    css /tufte.css
+    template /article-template.html
 }
